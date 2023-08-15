@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(Images/wallpapersden.com_moon-4k_1920x1080.jpg);
+    background-size: cover;
+}
+
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-us h1 {
+    position: relative;
+    text-align: left;
+    padding: 20px 10%;
+    color: #ffffff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+    font-size: 50px;
+}
+
+.contact-box {
+    position: absolute;
+    width: 600px;
+    background-color: transparent;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 3);
+    left: 30%;
+    border-radius: 2%;
+    
+    
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: none ;
+    border-radius: 14px;
+    outline: none;
+    font-size: 20px;
+}
+
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.contact-box .btn {
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    color: #111;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: silver;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2);
+}
